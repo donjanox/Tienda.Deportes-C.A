@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Deportes C.A</title>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+
+    
+</head>
+
+<body>
+
+    <body>
+
+        <header class="l-header" id="header">
+
+            <nav class="nav tk-container">
+                <a href="#" class="nav_logo"><img src="img/tiendaX.gif" alt=""></a>
+                <div class="nav_menu">
+                    <div class="two columns u-pull-right">
+                        <ul>
+                            <li class="submenu">
+                                    <img src="img/carrito.gif" id="img-carrito" class="carrito">
+                                    <div id="carrito">
+                                            
+                                            <table id="lista-carrito" class="u-full-width">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Imagen</th>
+                                                        <th>Nombre</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+        
+                                            <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                    </div>
+                            </li>
+                            <li class="submenu">
+                                <a href="Usuario.html" ><img src="img/usuario.gif" alt="usuario" class="usuario"></a>
+
+                                </div>
+                        </li>
+                        </ul>
+                    </div>
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#home" class="nav_link active-link">Inicio</a></li>
+                        <li class="nav_item"><a href="#about" class="nav_link">Nosotros</a></li>
+                        <li class="nav_item"><a href="#lista-catalogo" class="nav_link">Articulos</a></li>
+                        <li class="nav_item"><a href="#services" class="nav_link">Servicios</a></li>
+                        <li class="nav_item"><a href="#contact" class="nav_link"><a href="formulario.html">Contacto</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="nav_toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+
+            <section class="home" id="home">
+                <div class="home_container tk_container tk-grid">
+                    <div class="home_data">
+                        <h1 class="home_title">Entrena sin limites</h1>
+                        <a href="#lista-catalogo" class="button">Ver Articulos</a>
+                    </div>
+                </div>
+            </section>
+            <section class="about section tk-container" id="about">
+                <div class="about_container tk-grid">
+                    <div class="about_data">
+                        <h2 class="section-title about_initial">Quienes somos</h2>
+                        <p class="about_description">Deportes C.A nace con el objetivo de hacerte vivir el deporte y
+                            contribuir con un estilo de vida saludable y activo. ¡Ofrecemos gran variedad de productos
+                            de
+                            calidad para que tus rutinas sean siempre diferentes y entretenidas!</p>
+
+
+                        <a href="#" class="button">Navegar</a>
+                    </div>
+                    <div class="about_data">
+                        <img src="img/Logo C.A.gif" alt="" class="about_img">
+                    </div>
+                </div>
+            </section>
+
+                    <div id="lista-catalogo" class="container">
+                        <h1 class="encabezado">Articulos en venta</h1>
+                        <div class="row">
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/SET-MANCUERNAS.jpg" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Set de mancuernas 30 kg home fitness</h4>
+                                        <p class="precio">$29.990<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar
+                                            al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/banda elastica.png" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Power Band R5 Banda de Resistencia 1.25</h4>
+
+                                        <p class="precio">$13.990<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar
+                                            al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/Barra-Multifuncional.jpg" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Barra Multifuncional Puerta Flexiones</h4>
+
+                                        <p class="precio">$19.990<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar
+                                            al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/Bicicleta-de-Spinning.jpg" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Bicicleta de Spinning Z50 Pro Ultimate Fitness</h4>
+
+                                        <p class="precio">$320.000<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar
+                                            al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/disco balance con laberinto.jpeg" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Disco Balance Pro con Laberinto Equilibrio Plástico</h4>
+
+                                        <p class="precio">$12.990<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar
+                                            al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/eliptica fitness.jpg" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Elíptica T330 Pro Magnética Ultimate Fitness</h4>
+
+                                        <p class="precio">$399.990<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar
+                                            al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/pack de bandas.jpg" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Pack 4 Power Band Bandas de Resistencia</h4>
+
+                                        <p class="precio">$39.980<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar
+                                            al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/Pack Kettlebell pesa rusa.png" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Set kettlebel gold's gym 5 KG, 10KG, 15KG</h4>
+
+                                        <p class="precio">$45.990<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar
+                                            al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/remadora bogadora.jpg" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Remadora Magnética Bogadora B200</h4>
+
+                                        <p class="precio">$500.000<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar
+                                            al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/Mat de Yoga.jpg" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Mat de Yoga color verde 6 metros</h4>
+
+                                        <p class="precio">$14.990<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                            data-id="10">Agregar al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/Set de Tubos Elásticos de Resistencia 11 piezas_ccexpress.png" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Set de Elásticos de Resistencia</h4>
+
+                                        <p class="precio">$21.990<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                            data-id="11">Agregar al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="four columns">
+                                <div class="card">
+                                    <img src="img/trotadora.jpg" class="u-full-width">
+                                    <div class="info-card">
+                                        <h4>Trotadora Eléctrica E300 Pro</h4>
+
+                                        <p class="precio">$700.000<span class="u-pull-right"></span></p>
+                                        <a href="#" class="u-full-width button-primary button input agregar-carrito"
+                                            data-id="12">Agregar al carrito</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+            <section class="services section tk-container" id="services">
+                <span class="section-subtitle">Ofrecemos</span>
+                <div class="services_container tk-grid">
+                    <div class="services_content">
+                        <img src="img/mancuerna.gif" class="services_img" alt="">
+                        <p class="services_description">Los mejores artículos
+                            para realizar ejercicio</p>
+                    </div>
+                    <div class="services_content">
+                        <img src="img/Entrega.gif" class="services_img" alt="">
+                        <p class="services_description">Despachos rápidos
+                            a todo chile</p>
+                    </div>
+                    <div class="services_content">
+                        <img src="img/SEGURIDAD.gif" class="services_img" alt="">
+                        <p class="services_description">garantía 100%
+                            productos hasta 12 meses
+
+                        </p>
+
+
+                    </div>
+
+
+            </section>
+
+            <div class="contenedor">
+
+                <div class="carousel">
+                    <div class="carousel__contenedor">
+                        <button aria-label="Anterior" class="carousel__anterior">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+
+                        <div class="carousel__lista">
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento.jpg" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento1.jpg" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento2.jpg" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento3.jpg" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento4.jpeg" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento5.jpeg" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento6.png" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento7.jpg" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento8.jpg" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento9.jpg" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento10.jpg" alt="">
+                            </div>
+                            <div class="carousel__elemento">
+                                <img src="img/entrenamiento11.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <button aria-label="Siguiente" class="carousel__siguiente">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <div role="tablist" class="carousel__indicadores"></div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Información</h4>
+                            <ul>
+                                <li><a href="#about" class="nav_link">Nosotros</a></li>
+                                <li><a href="formulario.html">Formulario</a></p>
+                                <li><a href="#lista-catalogo" class="nav_link">Articulos</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Usuario</h4>
+                            <ul>
+                                <li><a href="Usuario.html">Crear Usuario</a></li>
+                                <li><a href="#">regresar</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Siguenos</h4>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </footer>
+        </main>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+        <script src="JS/jquery-3.5.1.min.js"></script>
+        <script src="JS/multislider.min.js"></script>
+        
+
+
+
+    </body>
+
+</html>
